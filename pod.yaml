@@ -6,4 +6,5 @@ spec:
   containers:
   - name: reddy
     image: nginx
-  containerPort: 80
+    ports:
+    - containerPort: 80
